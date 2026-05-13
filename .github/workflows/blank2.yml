@@ -3,6 +3,8 @@ name: CI2
 on:
   workflow_dispatch:
 
+permissions: write-all
+
 jobs:
   list-files:
     runs-on: ubuntu-latest
